@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+}
+
+/* common style */
+
+.common-btn{
+
+    text-decoration:none;
+
+    background:#2956F2;
+
+    color:#ffffff;
+
+    padding:14px 28px;
+
+    border-radius:8px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+/* Navbar css */
+header{
+    width:100%;
+    background:#ffffff;
+    border-bottom:1px solid #ececec;
+}
+
+.navbar{
+    width:1200px;
+    height:72px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:36px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#6b7280;
+    font-size:14px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#111827;
+}
+
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+
+
+
+
+
+
+
