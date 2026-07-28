@@ -186,6 +186,170 @@ header{
 
 
 
+/* Pricing Section css */
+
+.pricing-section{
+    width:100%;
+    padding:90px 8%;
+    background:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.pricing-heading{
+    text-align:center;
+    margin-bottom:55px;
+}
+
+.pricing-heading h2{
+    font-size:58px;
+    font-weight:800;
+    color:#182433;
+    margin-bottom:12px;
+}
+
+.pricing-heading p{
+    color:#7a7a7a;
+    font-size:17px;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:28px;
+    align-items:stretch;
+}
+
+.price-card{
+    width:360px;
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:14px;
+    padding:28px;
+    display:flex;
+    flex-direction:column;
+}
+
+.price-card .plan{
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1px;
+    color:#7c7c7c;
+    margin-bottom:10px;
+}
+
+.price-card h3{
+    font-size:60px;
+    font-weight:800;
+    color:#1a2433;
+    margin-bottom:5px;
+}
+
+.person{
+    color:#8b8b8b;
+    margin-bottom:22px;
+}
+
+.price-card hr{
+    border:none;
+    height:1px;
+    background:#ececec;
+    margin-bottom:25px;
+}
+
+.price-card ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    flex:1;
+}
+
+.price-card ul li{
+    margin-bottom:18px;
+    color:#4d5663;
+    font-size:15px;
+    position:relative;
+    padding-left:18px;
+    line-height:1.4;
+}
+
+.price-card ul li::before{
+    content:"•";
+    position:absolute;
+    left:0;
+    color:#2d68ff;
+    font-size:18px;
+}
+
+.price-card button{
+    margin-top:30px;
+    height:48px;
+    border-radius:8px;
+    border:2px solid #3567f6;
+    background:#fff;
+    color:#3567f6;
+    font-size:15px;
+    font-weight:700;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.price-card button:hover{
+    background:#3567f6;
+    color:#fff;
+
+}
+
+/* Active Card */
+
+.price-card.active{
+    background:#101d2d;
+    border:none;
+}
+
+.price-card.active .plan{
+    color:#7ea9ff;
+}
+
+.price-card.active h3{
+    color:#fff;
+}
+
+.price-card.active .person{
+    color:#8da0b7;
+}
+
+.price-card.active hr{
+    background:#223246;
+}
+
+.price-card.active ul li{
+    color:#d2d7de;
+}
+
+.price-card.active button{
+    background:#3567f6;
+    color:#fff;
+    border:none;
+}
+
+.price-card.active button:hover{
+    background:#2457ec;
+}
+
+/* Contact us button */
+.outline-btn{
+    border:2px solid #232323 !important;
+    color:#232323 !important;
+    background:#fff !important;
+}
+
+.outline-btn:hover{
+    background:#232323 !important;
+    color:#fff !important;
+}
+
+
+
 
 
 
