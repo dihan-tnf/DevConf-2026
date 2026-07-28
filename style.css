@@ -111,5 +111,81 @@ header{
     font-weight:400;
 }
 
+/* Meet the speaker css */
+
+.speakers{
+    padding:90px 0;
+    background:#ffffff;
+}
+
+.container{
+    width:1180px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    font-size:58px;
+    font-weight:700;
+    color:#111;
+    margin-bottom:60px;
+}
+
+.speaker-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.speaker-card{
+    background:#fff;
+    border:1px solid #e8e8e8;
+    border-radius:12px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.speaker-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.speaker-card img{
+    width:100%;
+    height:340px;
+    object-fit:cover;
+    display:block;
+}
+
+.speaker-content{
+    padding:24px;
+}
+
+.category{
+    display:block;
+    color:#2563eb;
+    font-size:12px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+    margin-bottom:10px;
+}
+
+.speaker-content h3{
+    font-size:30px;
+    color:#111;
+    margin-bottom:8px;
+    font-weight:700;
+}
+
+.speaker-content p{
+    font-size:16px;
+    color:#777;
+    line-height:1.6;
+}
+
+
+
+
 
 
