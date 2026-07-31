@@ -1,0 +1,2 @@
+I am designing a landing page for a developer conference called DevConf 2026 using only HTML and CSS. My page has Navigation Bar,
+Hero Section, Meet the Speakers, Pricing Section. I want to add another section below the pricing section. Suggest me the single best section to place after the pricing section. 
